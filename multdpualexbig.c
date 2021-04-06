@@ -400,7 +400,7 @@ void bconv(const uint8_t* A, const uint8_t* F, uint8_t* C,
     c_shift =  c_shift < 0 ? 7 : c_shift;
   }
   }
-  printf("-");
+  //printf("-");
 }
 
 float fdot_3d(const float* A, const uint8_t* B, const int x, const int y,
