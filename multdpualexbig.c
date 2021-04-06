@@ -734,7 +734,7 @@ float count = 0;
    mram_read(labeldata, test_label, LBUFFER_SIZE);
 
 //uint32_t i = 6;
-for(int i = 0; i<156; i++){
+for(int i = 0; i<8; i++){
    mram_read(inputdata+i*DIGIT_SIZE, f, MAX_READ);
    mram_read(inputdata+i*DIGIT_SIZE+MAX_READ, (void*)f+MAX_READ, DIGIT_SIZE-MAX_READ);
   
